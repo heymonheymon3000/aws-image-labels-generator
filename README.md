@@ -60,4 +60,3 @@ This project is licensed under the [License Name] License - see the [LICENSE.md]
 ## 🙏 Acknowledgments
 
 *   [Mention any tutorials, documentation, or tools that were particularly helpful.] -->
-# aws-image-labels-generator
