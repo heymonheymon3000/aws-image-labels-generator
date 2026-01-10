@@ -11,7 +11,7 @@ In this project, I developed an image labeling generator using Amazon Rekognitio
 * Amazon Rekognition: To analyse images and generate image labels.
 * AWS CLI: Interacting with AWS services through command line interface(CLI).
 
-### Architecture Diagram
+Architecture Diagram
 ![alt text](architect-diagram.png)
 
 Below is the image I uploaded to Amazon S3
