@@ -14,7 +14,7 @@ In this project, I developed an image labeling generator using Amazon Rekognitio
 ### Architecture Diagram
 ![alt text](architect-diagram.png)
 
-### Below is the image I uploaded to Amazon S3
+Below is the image I uploaded to Amazon S3
 ![alt text](downtown-atlanta.jpg)
 
 In order to use the aws cli, I had to create a secret access key via Amazon IAM, then configure my command line to use the users credentials
