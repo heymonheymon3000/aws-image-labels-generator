@@ -1,62 +1,28 @@
 # Image Labels Generator
 
-## 📄 Documentation in progress. Coming soon!
+## 🌟 Overview
 
-<!-- ## 🌟 Overview -->
+In this project, I developed an image labeling generator using Amazon Rekognition. The application processes an input image and identifies objects within it by assigning relevant labels, such as detecting whether a person in the image is a woman or a man.
 
-<!-- [A brief, one-to-two sentence description of the project and its purpose. Clearly state what problem it solves and what it does.]
 
 ## ☁️ AWS Architecture
+### 🛠️ Services used
+* Amazon S3: For storing the images in the process of generating labels.
+* Amazon Rekognition: To analyse images and generate image labels.
+* AWS CLI: Interacting with AWS services through command line interface(CLI).
 
-[Use a diagram to visually represent how different AWS services connect and interact. Tools like Draw.io or Lucidchart are great for this.]
 
-![Architecture Diagram Placeholder](via.placeholder.com)
+### Architecture Diagram
+![alt text](architect-diagram.png)
 
-*   **[Service 1 (e.g., AWS Lambda)]**: [Briefly explain why you chose this service and how it's used in the project.]
-*   **[Service 2 (e.g., Amazon S3)]**: [Explain its role, e.g., storing static assets or hosting the website.]
-*   **[Service 3 (e.g., Amazon DynamoDB)]**: [Describe how data is stored and accessed.]
+### Below is the image I uploaded to Amazon S3
+![alt text](downtown-atlanta.jpg)
 
-## 🚀 Getting Started
+### In order to use the aws cli, I had to create a secret access key via Amazon IAM, then configure my command line to use the users credentials
 
-These instructions will get your copy of the project up and running on your local machine and AWS environment.
-
-### Prerequisites
-
-*   [List required tools, e.g., AWS CLI, Docker, Terraform, Node.js.]
-*   An active [AWS account](aws.amazon.comfree) with appropriate IAM permissions.
-
-### Installation & Deployment
-
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/[Your-Username]/[Your-Repo-Name].git
-    cd [Your-Repo-Name]
-    ```
-2.  **Configure AWS Credentials**:
-    [Provide instructions on setting up the AWS CLI with credentials if necessary.]
-3.  **Deploy the Infrastructure**:
-    [Detail the steps to deploy the AWS resources, whether using a CloudFormation template, Terraform, or manual steps.]
-    ```bash
-    # Example for CloudFormation
-    aws cloudformation deploy --template-file [template-file.yaml] --stack-name [YourStackName]
-    ```
-
-## 💡 Usage
-
-[Explain how to use the running application. Include examples, expected outcomes, or links to the deployed website/API endpoint.]
+## &rarr; Final Result
+Here is the image with labels after Amazon Rekognition processed the image<br/>
+![alt text](downtown-atlanta-with-detection-labels.png)
 
 ## 🛠️ Learnings and Challenges
-
-[This section is great for portfolios. Mention any issues you ran into, the solutions you found, and key takeaways from using the AWS services.]
-
-## 🔗 Related Projects
-
-*   [Link to other relevant projects or resources, e.g., a related blog post or demo video.]
-
-## 📄 License
-
-This project is licensed under the [License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## 🙏 Acknowledgments
-
-*   [Mention any tutorials, documentation, or tools that were particularly helpful.] -->
+### This project was very simple to implement. I did not run into any issue during development.
