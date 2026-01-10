@@ -23,6 +23,3 @@ In this project, I developed an image labeling generator using Amazon Rekognitio
 ## &rarr; Final Result
 ### Here is the image with labels after Amazon Rekognition processed the image<br/>
 ![alt text](downtown-atlanta-with-detection-labels.png)
-
-## 🛠️ Learnings and Challenges
-### This project was very simple to implement. I did not run into any issue during development.
