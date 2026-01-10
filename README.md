@@ -21,7 +21,7 @@ In this project, I developed an image labeling generator using Amazon Rekognitio
 ### In order to use the aws cli, I had to create a secret access key via Amazon IAM, then configure my command line to use the users credentials
 
 ## &rarr; Final Result
-Here is the image with labels after Amazon Rekognition processed the image<br/>
+### Here is the image with labels after Amazon Rekognition processed the image<br/>
 ![alt text](downtown-atlanta-with-detection-labels.png)
 
 ## 🛠️ Learnings and Challenges
