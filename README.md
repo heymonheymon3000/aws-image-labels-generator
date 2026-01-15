@@ -9,13 +9,30 @@ In this project, I developed an image labeling generator using Amazon Rekognitio
 * **AWS CLI**: Interacting with AWS services through command line interface(CLI).
 
 ## ☁️ AWS Architecture
+<<<<<<< HEAD
 ![alt text](design/architect-diagram.png)
 
 ### Below is the image I uploaded to Amazon S3
 ![alt text](design/downtown-atlanta.jpg)
+=======
+### 🛠️ Services used
+* Amazon S3: For storing the images in the process of generating labels.
+* Amazon Rekognition: To analyse images and generate image labels.
+* AWS CLI: Interacting with AWS services through command line interface(CLI).
 
-### In order to use the aws cli, I had to create a secret access key via Amazon IAM, then configure my command line to use the users credentials
+![alt text](architect-diagram.png)
+
+Below is the image I uploaded to Amazon S3
+![alt text](downtown-atlanta.jpg)
+>>>>>>> 59165ee107b38c0e0f1f038521c40fcf25cb70b6
+
+In order to use the aws cli, I had to create a secret access key via Amazon IAM, then configure my command line to use the users credentials
 
 ## &rarr; Final Result
+<<<<<<< HEAD
 ### Here is the image with labels after Amazon Rekognition processed the image<br/>
 ![alt text](design/downtown-atlanta-with-detection-labels.png)
+=======
+Here is the image with labels after Amazon Rekognition processed the image<br/>
+![alt text](downtown-atlanta-with-detection-labels.png)
+>>>>>>> 59165ee107b38c0e0f1f038521c40fcf25cb70b6
